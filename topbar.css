@@ -1,0 +1,160 @@
+.top-bar {
+    background-color: #3C3C3C;
+    height: 56px;
+    border-bottom: 2px solid  #FEBE10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+ 
+    
+}
+@media (min-width: 1100px ) and (max-width: 1300px) {
+    .top-bar{
+        justify-content: center;
+
+    }
+    .left-section {
+        margin-right: 172px;
+    }
+   
+}
+
+.left-section {
+    height : 14px;
+    display: flex;
+    font-weight: 400;
+    font-size: 12px ;
+    letter-spacing: 2%;
+    white-space: nowrap;
+
+   
+   
+}
+.left-section span {
+    margin-left: 30px;
+    color: #FFFFFF;
+
+}
+
+
+.right-section {
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  margin-left: 40px;
+    flex-shrink: 0;
+    margin-right: 50px;
+
+
+    
+}
+@media (min-width:1301px )  {
+    .top-bar{
+        justify-content: space-between;
+    }
+  
+
+    .left-section {
+        margin-left: 100px;
+    }
+    
+.right-section {
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  margin-left: 40px;
+    flex-shrink: 0;
+    margin-right: 150px;
+
+
+    
+}
+@media (min-width:1536) {
+    .top-bar{
+        justify-content: center;
+
+    }
+    .right-section {
+        margin-left: 440px;
+    }
+}
+}
+
+.font-size{
+    display: flex;
+    align-items: baseline; 
+
+margin-right: 20px;
+
+ 
+
+}
+.font-size p{
+    margin-right: 7px;
+}
+.theme {
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+   
+
+
+}
+.yellow {
+    height: 25px;
+    width: 25px;
+    object-fit: contain;
+    background-color: #FEBE10;
+    color: #3C3C3C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin-right: 10px;
+
+}
+.light {
+    height: 25px;
+    width: 25px;
+    object-fit: contain;
+    background-color: #ffffff;
+    color: #3C3C3C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+.lang {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    font-size: 15px;
+    
+}
+.hindi {
+    height: 25px;
+    margin-right: 5px;
+    font-size: 16px;
+    border-right: 1px solid #ffffff;
+    padding-right: 5px;
+}
+.search-icon {
+    height: 40px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+  
+
+
+}
+.vector {
+ object-fit: contain;
+height : 22px;
+
+}
