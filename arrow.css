@@ -1,0 +1,31 @@
+.arrow {
+  border: solid #999999;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+ .arrow:hover {
+  border-color: #000000;
+  cursor: pointer;}

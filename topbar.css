@@ -1,7 +1,7 @@
 .top-bar {
     background-color: #3C3C3C;
     height: 56px;
-    border-bottom: 2px solid  #FEBE10;
+    border-bottom: 1px solid  #FEBE10;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -131,13 +131,16 @@ margin-right: 20px;
 }
 .lang {
    display: flex;
+   margin-left: 10px;
     align-items: center;
     justify-content: center;
     height: 25px;
     font-size: 15px;
     
+    
 }
 .hindi {
+    margin-left: 10px;
     height: 25px;
     margin-right: 5px;
     font-size: 16px;
