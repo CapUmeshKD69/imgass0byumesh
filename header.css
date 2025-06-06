@@ -1,0 +1,43 @@
+.header{
+    height: 125px;
+    background-color:#222222;
+font-family: "Lato" , sans-serif;
+font-size: 13px;
+font-weight: 400;
+letter-spacing: 0.5px;
+}
+.logo {
+    max-width: 490px;
+    margin:  auto;
+    padding-top: 3px;
+    height : 52px;
+}
+.logo-image{
+    object-fit: contain ;
+    height: 100%;
+    width: 100%;
+}
+.header-content {
+   display :flex;
+   max-width: 1200px;
+   align-items: center ;
+    justify-content: space-between;
+    margin: 12px auto 0px auto;
+    border-top: 1px solid #F8B300;
+    padding: 21px 0;
+    white-space: nowrap;
+    
+}
+.header-button{
+    display:flex;
+    align-items: center;
+    height: 5px;
+    margin-top: 5px;
+    padding-right: 5px;
+
+}
+.down-arrow {
+    object-fit : contain;
+    height :100%;
+    padding : 1px 10px 0px 4px
+}
